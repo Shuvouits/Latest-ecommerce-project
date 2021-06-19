@@ -1,0 +1,1 @@
+!function(e){e(document).on("keypress",".integer-validation",(function(e){var n=e.charCode?e.charCode:e.keyCode;if(8!=n&&(n<2534||n>2543)&&(n<48||n>57))return!1})),e(document).on("keypress",".numeric-validation",(function(e){var n=e.charCode?e.charCode:e.keyCode;if(8!=n&&"."!=e.key&&45!=n&&(n<2534||n>2543)&&(n<48||n>57))return!1}))}(jQuery);
